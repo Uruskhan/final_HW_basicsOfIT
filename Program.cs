@@ -5,7 +5,15 @@
 // коллекциями, лучше обойтись исключительно массивами.
 // -------------------------------------------------------------------------------------------------
 
-// Сгенерируем одномерный массив строк
+// Сгенерируем одномерный массив строк, для этого введем:
+
+// Метод общения с пользователем 
+int ReadData(string line)
+{
+    Console.WriteLine(line);
+    int number = int.Parse(Console.ReadLine() ?? "0");
+    return number;
+}
 
 // Метод генерации строки псевдослучайного размера
 string StringGenMethod(int minValue, int maxValue)
@@ -23,4 +31,7 @@ string StringGenMethod(int minValue, int maxValue)
     return result;
 }
 
-Console.WriteLine(StringGenMethod(1,6));
+int minVal = ReadData("Введите нижнюю границу длины строки: ");
+int maxVal = ReadData("Введите верхнюю границу длины строки: ");
+
+Console.WriteLine(StringGenMethod(minVal,maxVal));
