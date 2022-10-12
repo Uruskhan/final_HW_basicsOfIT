@@ -24,8 +24,8 @@ string StringGenMethod(int minValue, int maxValue)
     int length = len.Next(minValue, maxValue);
     for (int i = 0; i < length; i++)
     {
-        Random len2 = new Random();
-        int x = len2.Next(26);
+        Random charOfAlph = new Random();
+        int x = charOfAlph.Next(26);
         result = result + alphabet[x];
     }
     return result;
@@ -46,22 +46,20 @@ string[] GenArray(int arrayLength, int minValue, int maxValue)
 // метод принимает на вход массив и выводит на экран
 void PrintArray(string[] array)
 {
-    for (int i = 0; i < array.Length - 1; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + ", ");
+        Console.Write(array[i] + " ");
     }
-    Console.WriteLine(array[array.Length - 1]);
     Console.WriteLine();
 }
 
-// метод принимает на вход массив строк и выдает массив строк с длиной не более 3 символов
+// метод принимает на вход массив строк и выдает массив строк из исходного массива с длиной не более 3 символов
 void PrintNewArray(string[] array)
 {
-    for (int i = 0; i < array.Length - 1; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (array[i].Length <= 3) Console.Write(array[i] + ", ");
+        if (array[i].Length <= 3) Console.Write(array[i] + " ");
     }
-    Console.WriteLine(array[array.Length - 1]);
     Console.WriteLine();
 }
 
@@ -74,6 +72,7 @@ Console.WriteLine();
 
 Console.WriteLine("Исходный сгенерированный массив строк: ");
 PrintArray(arr);
+Console.WriteLine();
 
 Console.WriteLine("Массив строк имеющих длину не более 3 символов: ");
 PrintNewArray(arr);
