@@ -1,0 +1,15 @@
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\bin\Debug\net6.0\final_HW_basicsOfIT.exe
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\bin\Debug\net6.0\final_HW_basicsOfIT.deps.json
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\bin\Debug\net6.0\final_HW_basicsOfIT.runtimeconfig.json
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\bin\Debug\net6.0\final_HW_basicsOfIT.dll
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\bin\Debug\net6.0\final_HW_basicsOfIT.pdb
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.csproj.AssemblyReference.cache
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.AssemblyInfoInputs.cache
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.AssemblyInfo.cs
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.csproj.CoreCompileInputs.cache
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.dll
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\refint\final_HW_basicsOfIT.dll
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.pdb
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\final_HW_basicsOfIT.genruntimeconfig.cache
+D:\GeekBrains\NewFolder\Final Homework\final_HW_basicsOfIT\obj\Debug\net6.0\ref\final_HW_basicsOfIT.dll
