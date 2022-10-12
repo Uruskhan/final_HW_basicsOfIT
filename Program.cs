@@ -42,6 +42,17 @@ string[] GenArray(int arrayLength, int minValue, int maxValue) // генерир
     return array;
 }
 
+void PrintNewArray(string[] array) // принимает на вход массив и выводит на экран
+{
+    for (int i = 0; i < array.Length - 1; i++)
+    {
+        if (array[i].Length<=3) Console.Write(array[i] + ", ");
+    }
+    Console.WriteLine(array[array.Length - 1]);
+    Console.WriteLine();
+}
+
+
 void PrintArray(string[] array) // принимает на вход массив и выводит на экран
 {
     for (int i = 0; i < array.Length - 1; i++)
@@ -58,3 +69,4 @@ int arrLen = ReadData("Введите длину массива строк: ");
 
 string[] arr = GenArray(arrLen, minVal, maxVal);
 PrintArray(arr);
+PrintNewArray(arr);
