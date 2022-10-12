@@ -68,5 +68,6 @@ int maxVal = ReadData("Введите верхнюю границу длины �
 int arrLen = ReadData("Введите длину массива строк: ");
 
 string[] arr = GenArray(arrLen, minVal, maxVal);
+Console.WriteLine();
 PrintArray(arr);
 PrintNewArray(arr);
