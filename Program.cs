@@ -31,7 +31,30 @@ string StringGenMethod(int minValue, int maxValue)
     return result;
 }
 
+string[] GenArray(int arrayLength, int minValue, int maxValue) // генерируем массив с заданной длиной
+{
+    string[] array = new string[arrayLength]; // выделяем память для нового массива с заданной длиной  
+
+    for (int i = 0; i < arrayLength; i++)
+    {
+        array[i] = StringGenMethod(minValue, maxValue);
+    }
+    return array;
+}
+
+void PrintArray(string[] array) // принимает на вход массив и выводит на экран
+{
+    for (int i = 0; i < array.Length - 1; i++)
+    {
+        Console.Write(array[i] + ", ");
+    }
+    Console.WriteLine(array[array.Length - 1]);
+    Console.WriteLine();
+}
+
 int minVal = ReadData("Введите нижнюю границу длины строки: ");
 int maxVal = ReadData("Введите верхнюю границу длины строки: ");
+int arrLen = ReadData("Введите длину массива строк: ");
 
-Console.WriteLine(StringGenMethod(minVal,maxVal));
+string[] arr = GenArray(arrLen, minVal, maxVal);
+PrintArray(arr);
